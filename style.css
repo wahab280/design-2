@@ -142,7 +142,7 @@ height: 65px;
         color: rgb(86 85 85);
     }
     .box3{
-        background-color: #e7e7e7;
+        background-color: #dfdfdf;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -262,3 +262,330 @@ width: 25vw;
     font-size: 35px;
     color: white;
    }
+   .box4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    width: 101%;
+    height: 70vh;
+    background-color: #e9e9e9;
+   }
+   .card1-line1{
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 197, 197);
+    text-decoration-thickness: 4px;
+
+   
+   }
+   .card1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30vw;
+    height: 55vh;
+   }
+   .card1-dis{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+.card1-line1{
+    color: #484848;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card1-vertical{
+    background-color: rgb(197, 197, 197);
+    width: 2px;
+    height: 30px;
+}
+.card1-line2{
+    color: #484848;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card1-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card1-gray{
+    display: flex;
+    align-items: flex-end;
+    background-color: #484848;
+    height: 25vh;
+    width: 30vw;
+}
+.card1-date{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    background-color: #999999;
+    height: 25px;
+    width: 12vw;
+}
+.card1-headline{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4A90E2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card1-after-headline{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #484848;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30vw;
+    height: 55vh;
+   } 
+   .card2-line1{
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 197, 197);
+    text-decoration-thickness: 4px;
+
+   
+   }
+   .card2-dis{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+.card2-line1{
+    color: #484848;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card2-vertical{
+    background-color: rgb(197, 197, 197);
+    width: 2px;
+    height: 30px;
+}
+.card2-line2{
+    color: #484848;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card2-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card2-gray{
+    display: flex;
+    align-items: flex-end;
+    background-color: #484848;
+    height: 25vh;
+    width: 30vw;
+}
+.card2-date{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    background-color: #999999;
+    height: 25px;
+    width: 12vw;
+}
+.card2-headline{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4A90E2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card2-after-headline{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #484848;
+}
+   .card3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30vw;
+    height: 55vh;
+   }
+   .card3-line1{
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 197, 197);
+    text-decoration-thickness: 4px;
+
+   
+   }
+   .card3-dis{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+.card3-line1{
+    color: #484848;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card3-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card3-gray{
+    display: flex;
+    align-items: flex-end;
+    background-color: #484848;
+    height: 25vh;
+    width: 30vw;
+}
+
+.card3-headline{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4A90E2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card3-after-headline{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #484848;
+}
+.box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 101%;
+    height: 50vh;
+    background-color: #dfdfdf;
+
+}
+.box5-part1{
+    justify-content: space-around;
+    display: flex;
+    height: 35vh;
+    width: 45vw;
+}
+.inc-part1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inc-line1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.inc-line2{
+color: #484848;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+.inc-line3{
+color: #484848;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+.inc-line4{
+color: #484848;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+.inc-line5{
+color: #484848;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+.inc-line6{
+color: #484848;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+.inc-line7{
+  color: #484848;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;   
+}
+.some-nav-items{
+    color: #484848;
+    align-items: center;
+   
+    display: flex;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 13px;
+}
+.box5-part2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 35vh;
+    width: 45vw;
+}
+.news-letter{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.top-line{
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.writting-box{
+    display: flex;
+    gap: 10px;
+}
+.writting-box button{
+    border: none;
+    height: 40px;
+    background-color: #484848;
+    color: white;
+}
+#comment{
+    border: none;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+}
+.follow-line{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.small-boxes{
+    display: flex;
+    gap: 13px;
+}
+.small-box1{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+.small-box2{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+.small-box3{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+.small-box4{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
