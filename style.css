@@ -1,323 +1,489 @@
-@media only screen and (max-width:1036px){
- .on-hand{
-    flex-wrap: wrap;
- }
+@media only screen and (max-width: 1036px) {
+    div.container nav {
+        /* display: flex !important; */
+        flex-direction: column !important;
+        height: 20vh;
+    }
+
+    div.on-hand {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 15px;
+        gap: 10px !important;
+        font-size: 15px !important;
+    }
+
+    div.box1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.big-line {
+        font-size: 30px;
+    }
+
+    div.box2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    div.consulting {
+        width: 40%;
+        object-fit: contain;
+        overflow: scroll;
+        height: 30vh;
+    }
+
+    div.developing {
+        width: 40%;
+        object-fit: contain;
+        overflow: scroll;
+        height: 30vh;
+    }
+
+    div.designing {
+        width: 40%;
+        object-fit: contain;
+        overflow: scroll;
+        height: 30vh;
+    }
+
+    div.analysis {
+        width: 40%;
+        object-fit: contain;
+        overflow: scroll;
+        height: 30vh;
+    }
+
+    div.all-lines {
+        height: 30vh;
+        object-fit: contain;
+        overflow: scroll;
+    }
+
+    div.lined1 {
+        font-size: 12px;
+    }
+
+    div.part1-para button {
+        max-width: 120px;
+    }
+
+    div.laptop img {
+        height: 25vh;
+        width: 30vw;
+    }
+
+    div.box3 div.part2 {
+        width: 85vw;
+    }
+    div.box3 div.box-news{
+        width: 28.3vw;
+    }
+    div.box3 div.box-news div.news-line2{
+        font-size: 25px;
+    }
+    div.box3 div.box-news div.news-line1{
+        font-size: 10px;
+    }
+    div.box3 div.box-libro{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 28.3vw;
+    }
+    div.box3 div.box-libro div.libro-line2{
+        font-size: 25px;
+    }
+    div.box3 div.box-libro div.libro-line1{
+        font-size: 10px;
+    }
+    div.box3 div.box-elite{
+        width: 28.3vw;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    div.box3 div.box-libro div.elite-line2{
+        font-size: 25px;
+    }
+   
 }
-.container nav{
-   margin: -8px;
+
+.container nav {
+    margin: -8px;
     width: 100vw;
     height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.soft{
+
+.soft {
     font-weight: 600;
     color: #484848;
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.on-hand{
+.on-hand {
     color: #484848;
     align-items: center;
-   
+
     display: flex;
     gap: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
-.on-hand .number{
+
+.on-hand .number {
     color: #484848;
-font-size: 20px;
+    font-size: 15px;
 }
-.box1{ 
+
+.box1 {
     background-color: #484848;
     margin: -8px;
-    width: 101%;
+    width: 100vw;
     height: 70vh;
 }
-.big-line{
+
+.big-line {
     font-weight: 600;
     font-size: 38px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-.box1{
+
+.box1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.small-lines{
+
+.small-lines {
     gap: 10px;
     flex-direction: column;
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
     color: white;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.box2{
+
+.box2 {
     align-items: center;
     justify-content: space-around;
-   display: flex;
+    display: flex;
     margin: 7px -8px;
-    width: 101%;
+    width: 100vw;
     height: 60vh;
 }
-.consulting{
+
+.consulting {
     text-align: center;
-height: 40vh;
-width: 22vw;
+    height: 40vh;
+    width: 22vw;
 }
-.c-head img{
-height: 65px;
+
+.c-head img {
+    height: 65px;
 }
-.c-head .c-line{
+
+.c-head .c-line {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
     font-weight: 600;
     color: #4A90E2;
 }
-.c-para{
+
+.c-para {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(86 85 85);
 }
 
-.developing{
+.developing {
     text-align: center;
     height: 40vh;
     width: 22vw;
 }
-.d-head img{
-    height: 65px;
-    }
-    .d-head .d-line{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 23px;
-        font-weight: 600;
-        color: #4A90E2;
-    }
-    .d-para{
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(86 85 85);
-    }
 
-.designing{
-    text-align: center;
-    height: 40vh;
-    width: 22vw;
-}
-.des-head img{
+.d-head img {
     height: 65px;
-    }
-    .des-head .des-line{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 23px;
-        font-weight: 600;
-        color: #4A90E2;
-    }
-    .des-para{
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(86 85 85);
-    }
-.analysis{
-    text-align: center;
-    height: 40vh;
-    width: 22vw;
 }
-.a-head img{
-    height: 65px;
-    }
-    .a-head .a-line{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 23px;
-        font-weight: 600;
-        color: #4A90E2;
-    }
-    .a-para{
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(86 85 85);
-    }
-    .box3{
-        background-color: #dfdfdf;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 101%;
-        height: 100vh;
-        gap: 40px;
-    }
-    .box3 .part1{
-        display: flex;
-        gap: 40px;
-        align-items: center;
-        justify-content: center;
-width: 70vw;
-height: 45vh;
-    }
-    .part1 .part1-para{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        height: 40vh;
-        width: 30vw;
-    }
-    .lined1{
-color: #484848;
-font-size: 13px;
-font-family: Arial, Helvetica, sans-serif;
-    }
-    .lined2{
-color: black;
-font-size: 30px;
-font-weight: 600;
-font-family: Arial, Helvetica, sans-serif;
-    }
-    .lined3{
-color: #484848;
-font-size: 13px;
-font-family: Arial, Helvetica, sans-serif;
 
-    }
-    .part1-para button{
-        border-radius: 5px;
-        color: black;
-        font-weight: 600;
-        font-size: 15px;
-        border: none;
-        background-color: white;
-width: 200px;
-height: 35px;
-    }
-    .laptop{
-        object-fit: contain;
-        height: 40vh;
-        width: 30vw;
-    }
-    .laptop img{
-        height: 40vh;
-        width: 30vw;
-    }
-    .box3 .part2{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: white;
-width: 70vw;
-height: 30vh;
-    }
-   .box-news{
+.d-head .d-line {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #4A90E2;
+}
+
+.d-para {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(86 85 85);
+}
+
+.designing {
+    text-align: center;
+    height: 40vh;
+    width: 22vw;
+}
+
+.des-head img {
+    height: 65px;
+}
+
+.des-head .des-line {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #4A90E2;
+}
+
+.des-para {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(86 85 85);
+}
+
+.analysis {
+    text-align: center;
+    height: 40vh;
+    width: 22vw;
+}
+
+.a-head img {
+    height: 65px;
+}
+
+.a-head .a-line {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #4A90E2;
+}
+
+.a-para {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(86 85 85);
+}
+
+.box3 {
+    background-color: #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -8px;
+    width: 100vw;
+    height: 100vh;
+    gap: 40px;
+}
+
+.box3 .part1 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    height: 45vh;
+}
+
+.part1 .part1-para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 40vh;
+    width: 30vw;
+}
+
+.lined1 {
+    color: #484848;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lined2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lined3 {
+    color: #484848;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.part1-para button {
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    width: 200px;
+    height: 35px;
+}
+
+.laptop {
+    object-fit: contain;
+    height: 40vh;
+    width: 30vw;
+}
+
+.laptop img {
+    height: 40vh;
+    width: 30vw;
+}
+
+.box3 .part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 75vw;
+    height: 30vh;
+}
+
+.box-news {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-height: 25vh;
-width: 25vw;
-   }
-   
-   .box-news .news-line1{
-    color: #484848;
-    text-align: center;
-    font-size: 15px;
-   }
-   .box-news .news-line2{
-    color: black;
-    text-align: center;
-    font-size: 35px;
-   }
-   .box-libro{
     height: 25vh;
     width: 25vw;
-   }
-   .libro-line1{
+}
+
+.box-news .news-line1 {
+    color: #484848;
+    text-align: center;
+    font-size: 15px;
+}
+
+.box-news .news-line2 {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
+
+.box-libro {
+    height: 25vh;
+    width: 25vw;
+}
+
+.libro-line1 {
     font-family: Arial, Helvetica, sans-serif;
     color: #484848;
     text-align: center;
     font-size: 15px;
-   }
-   .libro-line2{
+}
+
+.libro-line2 {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
     font-size: 35px;
-   }
-   .box-elite{
+}
+
+.box-elite {
     background-color: black;
     height: 30vh;
     width: 25vw;
-   }
-   .elite-line1{ 
+}
+
+.elite-line1 {
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 15px;
     color: white;
-   }
-   .elite-line2{
+}
+
+.elite-line2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 35px;
     color: white;
-   }
-   .box4{
+}
+
+.box4 {
     justify-content: center;
     align-items: center;
     display: flex;
     gap: 10px;
-    width: 101%;
+    margin: -8px;
+    width: 100vw;
     height: 70vh;
     background-color: #e9e9e9;
-   }
-   .card1-line1{
+}
+
+.card1-line1 {
     text-decoration: underline;
     text-decoration-color: rgb(197, 197, 197);
     text-decoration-thickness: 4px;
 
-   
-   }
-   .card1{
+
+}
+
+.card1 {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 30vw;
     height: 55vh;
-   }
-   .card1-dis{
+}
+
+.card1-dis {
     display: flex;
     align-items: center;
     gap: 10px;
-   }
-.card1-line1{
+}
+
+.card1-line1 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
     color: #484848;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.card1-vertical{
+
+.card1-vertical {
     background-color: rgb(197, 197, 197);
     width: 2px;
     height: 30px;
 }
-.card1-line2{
+
+.card1-line2 {
     color: #484848;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.card1-main{
+
+.card1-main {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.card1-gray{
+
+.card1-gray {
     display: flex;
     align-items: flex-end;
     background-color: #484848;
     height: 25vh;
     width: 30vw;
 }
-.card1-date{
+
+.card1-date {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
@@ -326,64 +492,78 @@ width: 25vw;
     height: 25px;
     width: 12vw;
 }
-.card1-headline{
+
+.card1-headline {
     font-size: 20px;
     font-weight: 600;
     color: #4A90E2;
     font-family: Arial, Helvetica, sans-serif;
 }
-.card1-after-headline{
+
+.card1-after-headline {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     color: #484848;
 }
-.card2{
+
+.card2 {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 30vw;
     height: 55vh;
-   } 
-   .card2-line1{
+}
+
+.card2-line1 {
     text-decoration: underline;
     text-decoration-color: rgb(197, 197, 197);
     text-decoration-thickness: 4px;
 
-   
-   }
-   .card2-dis{
+
+}
+
+.card2-dis {
     display: flex;
     align-items: center;
     gap: 10px;
-   }
-.card2-line1{
+}
+
+.card2-line1 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
     color: #484848;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.card2-vertical{
+
+.card2-vertical {
     background-color: rgb(197, 197, 197);
     width: 2px;
     height: 30px;
 }
-.card2-line2{
+
+.card2-line2 {
     color: #484848;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.card2-main{
+
+.card2-main {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.card2-gray{
+
+.card2-gray {
     display: flex;
     align-items: flex-end;
     background-color: #484848;
     height: 25vh;
     width: 30vw;
 }
-.card2-date{
+
+.card2-date {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
@@ -392,48 +572,69 @@ width: 25vw;
     height: 25px;
     width: 12vw;
 }
-.card2-headline{
+
+.card2-headline {
     font-size: 20px;
     font-weight: 600;
     color: #4A90E2;
     font-family: Arial, Helvetica, sans-serif;
 }
-.card2-after-headline{
+
+.card2-after-headline {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     color: #484848;
 }
-   .card3{
+
+.card3 {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 30vw;
     height: 55vh;
-   }
-   .card3-line1{
+}
+
+.card3-line1 {
     text-decoration: underline;
     text-decoration-color: rgb(197, 197, 197);
     text-decoration-thickness: 4px;
 
-   
-   }
-   .card3-dis{
+
+}
+.card3-vertical {
+    background-color: rgb(197, 197, 197);
+    width: 2px;
+    height: 30px;
+}
+
+.card3-line2 {
+    color: #484848;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card3-dis {
     display: flex;
     align-items: center;
     gap: 10px;
-   }
-.card3-line1{
+}
+
+.card3-line1 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
     color: #484848;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.card3-main{
+.card3-main {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.card3-gray{
+
+.card3-gray {
     display: flex;
     align-items: flex-end;
     background-color: #484848;
@@ -441,150 +642,177 @@ width: 25vw;
     width: 30vw;
 }
 
-.card3-headline{
+.card3-headline {
     font-size: 20px;
     font-weight: 600;
     color: #4A90E2;
     font-family: Arial, Helvetica, sans-serif;
 }
-.card3-after-headline{
+
+.card3-after-headline {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     color: #484848;
 }
-.box5{
+
+.box5 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    width: 101%;
+    margin: -8px;
+    width: 100vw;
     height: 50vh;
     background-color: #dfdfdf;
 
 }
-.box5-part1{
+
+.box5-part1 {
     justify-content: space-around;
     display: flex;
     height: 35vh;
     width: 45vw;
 }
-.inc-part1{
+
+.inc-part1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.inc-line1{
+
+.inc-line1 {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
-.inc-line2{
-color: #484848;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
+
+.inc-line2 {
+    color: #484848;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
-.inc-line3{
-color: #484848;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
+
+.inc-line3 {
+    color: #484848;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
-.inc-line4{
-color: #484848;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
+
+.inc-line4 {
+    color: #484848;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
-.inc-line5{
-color: #484848;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
+
+.inc-line5 {
+    color: #484848;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
-.inc-line6{
-color: #484848;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
+
+.inc-line6 {
+    color: #484848;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
-.inc-line7{
-  color: #484848;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;   
+
+.inc-line7 {
+    color: #484848;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
-.some-nav-items{
+
+.some-nav-items {
     color: #484848;
     align-items: center;
-   
+
     display: flex;
     gap: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-   display: flex;
-   flex-direction: column;
-   gap: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
 }
-.box5-part2{
+
+.box5-part2 {
     display: flex;
     flex-direction: column;
     gap: 30px;
     height: 35vh;
     width: 45vw;
 }
-.news-letter{
-display: flex;
-flex-direction: column;
-gap: 10px;
+
+.news-letter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-.top-line{
+
+.top-line {
 
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
-.writting-box{
+
+.writting-box {
     display: flex;
     gap: 10px;
 }
-.writting-box button{
+
+.writting-box button {
     border: none;
     height: 40px;
     background-color: #484848;
     color: white;
 }
-#comment{
+
+#comment {
     border: none;
 }
-.follow{
+
+.follow {
     display: flex;
     flex-direction: column;
 }
-.follow-line{
+
+.follow-line {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
-.small-boxes{
+
+.small-boxes {
     display: flex;
     gap: 13px;
 }
-.small-box1{
+
+.small-box1 {
     background-color: white;
     width: 30px;
     height: 30px;
 }
-.small-box2{
+
+.small-box2 {
     background-color: white;
     width: 30px;
     height: 30px;
 }
-.small-box3{
+
+.small-box3 {
     background-color: white;
     width: 30px;
     height: 30px;
 }
-.small-box4{
+
+.small-box4 {
     background-color: white;
     width: 30px;
     height: 30px;
 }
-.follow{
+
+.follow {
     display: flex;
     flex-direction: column;
     gap: 10px;
