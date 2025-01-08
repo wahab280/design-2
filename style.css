@@ -112,7 +112,86 @@
     div.box3 div.box-libro div.elite-line2{
         font-size: 25px;
     }
+   div.box4{
+    width: 90;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,0.5fr);
+    justify-items: center;
+   }
+   div.card1{
+    width: 40vw;
+    height: 35vh;
+    overflow: scroll;
    
+   }
+   div.card1-line1{
+    font-size: 13px;
+   }
+   div.card1-line2{
+    font-size: 10px;
+   }
+   div.card2{
+    width: 40vw;
+    height: 35vh;
+    overflow: scroll;
+   }
+   div.card2-line1{
+    font-size: 13px;
+   }
+   div.card2-line2{
+    font-size: 10px;
+   }
+   div.card3{
+   grid-column: span 2;
+    width: 40vw;
+    height: 35vh;
+    overflow: scroll;
+   }
+   div.card3-line1{
+    font-size: 13px;
+   }
+   div.card3-line2{
+    font-size: 10px;
+   }
+   div.box5-part1{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    
+   }
+   div.some-nav-items{
+    display: flex;
+    flex-direction: row;
+   }
+}
+@media only screen and (max-width:360px){
+    div.box5{
+width: 102vw;
+    }
+    div.box5 div.some-nav-items{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div.inc-line1{
+        font-size: 20px;
+    }
+    div.top-line{
+        font-size: 20px;
+    }
+    div.writting-box{
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+    }
+    div.follow-line{
+        font-size: 20px;
+    }
+    div.small-boxes{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .container nav {
@@ -482,17 +561,6 @@
     height: 25vh;
     width: 30vw;
 }
-
-.card1-date {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    text-align: center;
-    background-color: #999999;
-    height: 25px;
-    width: 12vw;
-}
-
 .card1-headline {
     font-size: 20px;
     font-weight: 600;
@@ -518,8 +586,6 @@
     text-decoration: underline;
     text-decoration-color: rgb(197, 197, 197);
     text-decoration-thickness: 4px;
-
-
 }
 
 .card2-dis {
@@ -562,17 +628,6 @@
     height: 25vh;
     width: 30vw;
 }
-
-.card2-date {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    text-align: center;
-    background-color: #999999;
-    height: 25px;
-    width: 12vw;
-}
-
 .card2-headline {
     font-size: 20px;
     font-weight: 600;
